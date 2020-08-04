@@ -8,5 +8,16 @@ In first approach, predictors like verified purchase, review length, and sentime
 In second approach, focus is shifted to only review text and using TF-IDF weights supervised predictive models (SVM and Naive Bayes) are trained to predict the class of reviews.
 
 
-In the jupyter notebook (Detection of Fake Amazon Reviews), a complete step by step data analysis using Amazon_reviews.xlsx dataset can be found as well as the logical reasoning for feature selection and extraction is available.
+## Files
+
+<li>
+In the jupyter notebook (Detection of Fake Amazon Reviews.ipynb), a complete step by step data analysis using Amazon_reviews.xlsx dataset can be found as well as the logical reasoning for feature selection and extraction is available.
+</li>
+
+<li>
+fake_review_detection_GaussianNBmodel.pkl is Gaussian Naive Bayes classifier model that can be used on any set of amazon reviews having information such as verified purchase, Review character length and sentiment category (scale 1 to 5)
+</li>
+
+
+
 
